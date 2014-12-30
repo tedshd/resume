@@ -29,6 +29,9 @@ body {
     a, p {
         color: #242424;
     }
+    p {
+        display: inline-block;
+    }
 }
 
 .active {
@@ -107,10 +110,12 @@ body {
                 display: none;
             }
             .desc_link {
-                div {
-                    display: inline-block;
-                    a {
-                        text-decoration: none;
+                .block {
+                    div {
+                        display: inline-block;
+                        a {
+                            text-decoration: none;
+                        }
                     }
                 }
             }
@@ -162,7 +167,7 @@ body {
                     width: 600px;
                 }
                 .width_half {
-                    div {
+                    .column {
                         float: left;
                         width: 50%;
                     }
@@ -237,7 +242,8 @@ body {
                 hr {
                     display: none;
                 }
-                p {
+                .block {
+                    // box-sizing: border-box;
                     padding: 10px;
                     color: #666;
                 }
@@ -253,9 +259,12 @@ body {
     h1 {
         font-size: 24px;
     }
-    p {
+    .block {
         font-size: 14px;
     }
+    // .resume {
+    //     display: none;
+    // }
     #avatar {
         img {
             display: block;
