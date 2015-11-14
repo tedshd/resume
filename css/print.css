@@ -1,0 +1,45 @@
+/**
+ *
+ * @authors Ted Shiu (tedshd@gmail.com)
+ * @date    2015-11-14 14:06:28
+ * @version $Id$
+ */
+@media print {
+  /* line 9, ../sass/print.scss */
+  h1 {
+    font-size: 24px;
+  }
+
+  /* line 12, ../sass/print.scss */
+  .block {
+    font-size: 14px;
+  }
+
+  /* line 19, ../sass/print.scss */
+  #avatar img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 24, ../sass/print.scss */
+  .nav-layout {
+    display: none;
+  }
+
+  /* line 27, ../sass/print.scss */
+  .link {
+    display: inline-block;
+  }
+
+  /* line 30, ../sass/print.scss */
+  .print_grid {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* line 35, ../sass/print.scss */
+  .desc svg {
+    display: none;
+  }
+}

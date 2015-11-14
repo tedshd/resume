@@ -1,0 +1,221 @@
+/**
+ *
+ * @authors Ted Shiu (tedshd@gmail.com)
+ * @date    2015-11-14 14:10:12
+ * @version $Id$
+ */
+
+@media screen {
+    // nav-layout
+    .nav-layout {
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, .5);
+        ul {
+            float: right;
+            margin-right: 5px;
+            li {
+                float: left;
+                padding: 5px;
+                cursor: pointer;
+                &:hover {
+                    background: #aaa;
+                }
+            }
+        }
+    }
+
+    #con {
+        position: relative;
+        padding-top: 40px;
+    }
+
+    // layout-full
+    .layout-full {
+        #layout {
+            margin: 10px;
+        }
+        .desc svg {
+            display: none;
+        }
+    }
+
+    // layout card
+    .layout-card {
+        background: #eee;
+        #layout {
+            // -webkit-column-count: 3;
+            // -moz-column-count: 3;
+            // column-count: 3;
+            margin: 40px 5px 0 5px;
+            .resume {
+                display: none;
+            }
+            .thumb, .desc {
+                // float: left;
+                display: inline-block;
+                vertical-align: middle;
+                margin: 10px 5px;
+                padding: 10px;
+                width: 300px;
+                background: #dcdcdc;
+                box-sizing: border-box;
+                box-shadow: 1px 1px 7px rgba(0, 0, 0, .4);
+            }
+            .desc_os {
+                display: none;
+            }
+            .desc_link {
+                .block {
+                    div {
+                        display: inline-block;
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .link_name {
+                display: none;
+            }
+            #web:hover {
+                path {
+                    fill: #999;
+                }
+            }
+            #github:hover {
+                path {
+                    fill: #999;
+                }
+            }
+            #blog:hover {
+                path {
+                    fill: #ff8800;
+                }
+            }
+            #logdown:hover {
+                path {
+                    fill: #000;
+                }
+            }
+            #linkedin:hover {
+                path {
+                    fill: #0074ae;
+                }
+            }
+            #slideshare:hover {
+                path {
+                    fill: rgb(0, 99, 170);
+                }
+            }
+            #codepen:hover {
+                path {
+                    fill: #999;
+                }
+            }
+            #fb:hover {
+                path {
+                    fill: rgb(51, 74, 140);
+                }
+            }
+        }
+
+    }
+    @media only screen and (min-width : 635px) {
+        .layout-card {
+            #layout {
+                .width, .width_half {
+                    width: 600px;
+                }
+                .width_half {
+                    .column {
+                        float: left;
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+    // @media only screen
+    // and (min-width : 320px) {
+    //     .layout-card {
+    //         #layout {
+    //             -webkit-column-count: 1;
+    //             -moz-column-count: 1;
+    //             column-count: 1;
+    //         }
+    //     }
+    // }
+    // @media only screen
+    // and (min-width : 640px) {
+    //     .layout-card {
+    //         #layout {
+    //             -webkit-column-count: 2;
+    //             -moz-column-count: 2;
+    //             column-count: 2;
+    //         }
+    //     }
+    // }
+    // @media only screen
+    // and (min-width : 960px) {
+    //     .layout-card {
+    //         #layout {
+    //             -webkit-column-count: 3;
+    //             -moz-column-count: 3;
+    //             column-count: 3;
+    //         }
+    //     }
+    // }
+    // @media only screen
+    // and (min-width : 1280px) {
+    //     .layout-card {
+    //         #layout {
+    //             -webkit-column-count: 4;
+    //             -moz-column-count: 4;
+    //             column-count: 4;
+    //         }
+    //     }
+    // }
+
+    // layout list
+    .layout-list {
+        #layout {
+            .resume {
+                display: none;
+            }
+            max-width: 960px;
+            margin: 0 auto;
+            background: #ddd;
+            #avatar {
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            .desc {
+                margin-top: 10px;
+                // padding: 0 10px;
+                h2 {
+                    background: #ccc;
+                    padding: 5px;
+                    box-shadow: 0 2px 7px rgba(0, 0, 0, .4);
+                }
+                hr {
+                    display: none;
+                }
+                .block {
+                    // box-sizing: border-box;
+                    padding: 10px;
+                    color: #666;
+                }
+            }
+            .desc svg {
+                display: none;
+            }
+        }
+    }
+}
+

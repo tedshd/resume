@@ -4,7 +4,7 @@
  * @date    2013-12-05 23:51:51
  * @version $Id$
  */
-/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,55 +26,55 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 .clearfix:after {
   display: table;
   content: "";
@@ -82,49 +82,60 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   clear: both;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 body {
   font-size: 18px;
   color: #444;
   line-height: 1.5;
   font-family: Microsoft JhengHei, Arial, Tahoma, Geneva, sans-serif;
 }
-/* line 26, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 body h2 {
   font-size: 32px;
   color: #000;
 }
-/* line 30, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 body a, body p {
   color: #242424;
 }
-/* line 33, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 body p {
   display: inline-block;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .active {
   background: #aaa;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .link {
   display: none;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 #print {
   margin-left: 5px;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 #print:hover {
   cursor: pointer;
 }
 
+/* line 54, ../sass/style.scss */
+.discard {
+  text-decoration: line-through;
+}
+
+/**
+ *
+ * @authors Ted Shiu (tedshd@gmail.com)
+ * @date    2015-11-14 14:10:12
+ * @version $Id$
+ */
 @media screen {
-  /* line 52, ../sass/style.scss */
+  /* line 10, ../sass/screen.scss */
   .nav-layout {
     z-index: 10;
     position: fixed;
@@ -133,50 +144,50 @@ body p {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
   }
-  /* line 59, ../sass/style.scss */
+  /* line 17, ../sass/screen.scss */
   .nav-layout ul {
     float: right;
     margin-right: 5px;
   }
-  /* line 62, ../sass/style.scss */
+  /* line 20, ../sass/screen.scss */
   .nav-layout ul li {
     float: left;
     padding: 5px;
     cursor: pointer;
   }
-  /* line 66, ../sass/style.scss */
+  /* line 24, ../sass/screen.scss */
   .nav-layout ul li:hover {
     background: #aaa;
   }
 
-  /* line 73, ../sass/style.scss */
+  /* line 31, ../sass/screen.scss */
   #con {
     position: relative;
     padding-top: 40px;
   }
 
-  /* line 80, ../sass/style.scss */
+  /* line 38, ../sass/screen.scss */
   .layout-full #layout {
     margin: 10px;
   }
-  /* line 83, ../sass/style.scss */
+  /* line 41, ../sass/screen.scss */
   .layout-full .desc svg {
     display: none;
   }
 
-  /* line 89, ../sass/style.scss */
+  /* line 47, ../sass/screen.scss */
   .layout-card {
     background: #eee;
   }
-  /* line 91, ../sass/style.scss */
+  /* line 49, ../sass/screen.scss */
   .layout-card #layout {
     margin: 40px 5px 0 5px;
   }
-  /* line 96, ../sass/style.scss */
+  /* line 54, ../sass/screen.scss */
   .layout-card #layout .resume {
     display: none;
   }
-  /* line 99, ../sass/style.scss */
+  /* line 57, ../sass/screen.scss */
   .layout-card #layout .thumb, .layout-card #layout .desc {
     display: inline-block;
     vertical-align: middle;
@@ -187,137 +198,147 @@ body p {
     box-sizing: border-box;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
   }
-  /* line 110, ../sass/style.scss */
+  /* line 68, ../sass/screen.scss */
   .layout-card #layout .desc_os {
     display: none;
   }
-  /* line 115, ../sass/style.scss */
+  /* line 73, ../sass/screen.scss */
   .layout-card #layout .desc_link .block div {
     display: inline-block;
   }
-  /* line 117, ../sass/style.scss */
+  /* line 75, ../sass/screen.scss */
   .layout-card #layout .desc_link .block div a {
     text-decoration: none;
   }
-  /* line 123, ../sass/style.scss */
+  /* line 81, ../sass/screen.scss */
   .layout-card #layout .link_name {
     display: none;
   }
-  /* line 127, ../sass/style.scss */
+  /* line 85, ../sass/screen.scss */
+  .layout-card #layout #web:hover path {
+    fill: #999;
+  }
+  /* line 90, ../sass/screen.scss */
   .layout-card #layout #github:hover path {
     fill: #999;
   }
-  /* line 132, ../sass/style.scss */
+  /* line 95, ../sass/screen.scss */
   .layout-card #layout #blog:hover path {
     fill: #ff8800;
   }
-  /* line 137, ../sass/style.scss */
+  /* line 100, ../sass/screen.scss */
   .layout-card #layout #logdown:hover path {
     fill: #000;
   }
-  /* line 142, ../sass/style.scss */
+  /* line 105, ../sass/screen.scss */
   .layout-card #layout #linkedin:hover path {
     fill: #0074ae;
   }
-  /* line 147, ../sass/style.scss */
+  /* line 110, ../sass/screen.scss */
   .layout-card #layout #slideshare:hover path {
     fill: #0063aa;
   }
-  /* line 152, ../sass/style.scss */
+  /* line 115, ../sass/screen.scss */
   .layout-card #layout #codepen:hover path {
     fill: #999;
   }
-  /* line 157, ../sass/style.scss */
+  /* line 120, ../sass/screen.scss */
   .layout-card #layout #fb:hover path {
     fill: #334a8c;
   }
 }
 @media only screen and (min-width: 635px) {
-  /* line 167, ../sass/style.scss */
+  /* line 130, ../sass/screen.scss */
   .layout-card #layout .width, .layout-card #layout .width_half {
     width: 600px;
   }
-  /* line 171, ../sass/style.scss */
+  /* line 134, ../sass/screen.scss */
   .layout-card #layout .width_half .column {
     float: left;
     width: 50%;
   }
 }
 @media screen {
-  /* line 222, ../sass/style.scss */
+  /* line 185, ../sass/screen.scss */
   .layout-list #layout {
     max-width: 960px;
     margin: 0 auto;
     background: #ddd;
   }
-  /* line 223, ../sass/style.scss */
+  /* line 186, ../sass/screen.scss */
   .layout-list #layout .resume {
     display: none;
   }
-  /* line 230, ../sass/style.scss */
+  /* line 193, ../sass/screen.scss */
   .layout-list #layout #avatar img {
     display: block;
     margin: 0 auto;
   }
-  /* line 235, ../sass/style.scss */
+  /* line 198, ../sass/screen.scss */
   .layout-list #layout .desc {
     margin-top: 10px;
   }
-  /* line 238, ../sass/style.scss */
+  /* line 201, ../sass/screen.scss */
   .layout-list #layout .desc h2 {
     background: #ccc;
     padding: 5px;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
   }
-  /* line 243, ../sass/style.scss */
+  /* line 206, ../sass/screen.scss */
   .layout-list #layout .desc hr {
     display: none;
   }
-  /* line 246, ../sass/style.scss */
+  /* line 209, ../sass/screen.scss */
   .layout-list #layout .desc .block {
     padding: 10px;
     color: #666;
   }
-  /* line 252, ../sass/style.scss */
+  /* line 215, ../sass/screen.scss */
   .layout-list #layout .desc svg {
     display: none;
   }
 }
+/**
+ *
+ * @authors Ted Shiu (tedshd@gmail.com)
+ * @date    2015-11-14 14:06:28
+ * @version $Id$
+ */
 @media print {
-  /* line 260, ../sass/style.scss */
+  /* line 9, ../sass/print.scss */
   h1 {
     font-size: 24px;
   }
 
-  /* line 263, ../sass/style.scss */
+  /* line 12, ../sass/print.scss */
   .block {
     font-size: 14px;
   }
 
-  /* line 270, ../sass/style.scss */
+  /* line 19, ../sass/print.scss */
   #avatar img {
     display: block;
     margin: 0 auto;
   }
 
-  /* line 275, ../sass/style.scss */
+  /* line 24, ../sass/print.scss */
   .nav-layout {
     display: none;
   }
 
-  /* line 278, ../sass/style.scss */
+  /* line 27, ../sass/print.scss */
   .link {
     display: inline-block;
   }
 
-  /* line 281, ../sass/style.scss */
+  /* line 30, ../sass/print.scss */
   .print_grid {
     width: 49%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 286, ../sass/style.scss */
+  /* line 35, ../sass/print.scss */
   .desc svg {
     display: none;
   }

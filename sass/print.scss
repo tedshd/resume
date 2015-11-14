@@ -1,0 +1,38 @@
+/**
+ *
+ * @authors Ted Shiu (tedshd@gmail.com)
+ * @date    2015-11-14 14:06:28
+ * @version $Id$
+ */
+
+@media print {
+    h1 {
+        font-size: 24px;
+    }
+    .block {
+        font-size: 14px;
+    }
+    // .resume {
+    //     display: none;
+    // }
+    #avatar {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .nav-layout {
+        display: none;
+    }
+    .link {
+        display: inline-block;
+    }
+    .print_grid {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .desc svg {
+        display: none;
+    }
+}
