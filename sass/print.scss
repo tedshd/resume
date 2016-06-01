@@ -6,11 +6,18 @@
  */
 
 @media print {
-    h1 {
-        font-size: 24px;
+    body {
+        font-size: 12pt;
+        h1 {
+            font-size: 14pt;
+        }
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+        }
     }
     .block {
-        font-size: 14px;
+        // font-size: 12pt;
     }
     // .resume {
     //     display: none;
@@ -19,6 +26,8 @@
         img {
             display: block;
             margin: 0 auto;
+            width: 46pt;
+            height: 46pt;
         }
     }
     .nav-layout {
@@ -28,7 +37,7 @@
         display: inline-block;
     }
     .print_grid {
-        width: 49%;
+        width: 32%;
         display: inline-block;
         vertical-align: top;
     }

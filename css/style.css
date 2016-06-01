@@ -306,39 +306,45 @@ body p {
  */
 @media print {
   /* line 9, ../sass/print.scss */
-  h1 {
-    font-size: 24px;
+  body {
+    font-size: 12pt;
+  }
+  /* line 11, ../sass/print.scss */
+  body h1 {
+    font-size: 14pt;
+  }
+  /* line 14, ../sass/print.scss */
+  body h2 {
+    font-size: 14pt;
+    font-weight: bold;
   }
 
-  /* line 12, ../sass/print.scss */
-  .block {
-    font-size: 14px;
-  }
-
-  /* line 19, ../sass/print.scss */
+  /* line 26, ../sass/print.scss */
   #avatar img {
     display: block;
     margin: 0 auto;
+    width: 46pt;
+    height: 46pt;
   }
 
-  /* line 24, ../sass/print.scss */
+  /* line 33, ../sass/print.scss */
   .nav-layout {
     display: none;
   }
 
-  /* line 27, ../sass/print.scss */
+  /* line 36, ../sass/print.scss */
   .link {
     display: inline-block;
   }
 
-  /* line 30, ../sass/print.scss */
+  /* line 39, ../sass/print.scss */
   .print_grid {
-    width: 49%;
+    width: 32%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 35, ../sass/print.scss */
+  /* line 44, ../sass/print.scss */
   .desc svg {
     display: none;
   }
