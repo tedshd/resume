@@ -16,32 +16,13 @@
             font-weight: bold;
         }
     }
-    .block {
-        // font-size: 12pt;
-    }
-    // .resume {
-    //     display: none;
-    // }
     #avatar {
-        img {
-            display: block;
-            margin: 0 auto;
-            width: 46pt;
-            height: 46pt;
-        }
+        display: block;
+        margin: 0 auto;
+        width: 46pt;
+        height: 46pt;
     }
-    .nav-layout {
-        display: none;
-    }
-    .link {
+    .print {
         display: inline-block;
-    }
-    .print_grid {
-        width: 32%;
-        display: inline-block;
-        vertical-align: top;
-    }
-    .desc svg {
-        display: none;
     }
 }
