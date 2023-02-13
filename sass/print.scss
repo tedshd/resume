@@ -25,4 +25,13 @@
     .print {
         display: inline-block;
     }
+    .layout-list {
+        #layout {
+            .desc {
+                h2 {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
 }

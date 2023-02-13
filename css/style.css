@@ -464,6 +464,7 @@ nav li {
   body h2 {
     font-size: 14pt;
     font-weight: bold;
+    box-shadow: none;
   }
 
   /* line 19, ../sass/print.scss */
