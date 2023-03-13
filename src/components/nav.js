@@ -23,9 +23,9 @@ class Nav extends React.Component {
               <span className="print">http://blog.tedshd.io</span>
           </li>
           <li>
-              <a href="http://www.slideshare.net/tysh310246/presentations" target="_blank"
+              <a href="http://www.slideshare.net/tysh310246" target="_blank"
                   title="SlideShare">SlideShare</a>
-              <span className="print">http://www.slideshare.net/tysh310246/presentations</span>
+              <span className="print">http://www.slideshare.net/tysh310246</span>
           </li>
           <li>
               <a href="http://codepen.io/tedshd/" target="_blank" title="CodePen">CodePen</a>
