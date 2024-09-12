@@ -91,5 +91,10 @@
   "4_11": "快速構建靜態的 LiveStatus 官網（使用開源的模板並部署在 Firebase hosting）",
   "4_12": "利用 GitHub pages 快速建立服務的隱私政策和使用條款",
   "4_13": "添加 Firebase app check，以驗證 API 請求是否合法",
-  "4_14": "支援 app 訂閱（IAP）App Store 和 Google Play 內購買和訂閱的注意事項"
+  "4_14": "支援 app 訂閱（IAP）App Store 和 Google Play 內購買和訂閱的注意事項",
+  "5_1": "進行 SDK 非同步行為效能優化(把非必要行為改成非同步)",
+  "5_2": "JavaScript SDK 功能開發",
+  "5_3": "陸續整理與建立開發文件",
+  "5_4": "維護與開發 Dashboard(Angular + ABP)",
+  "5_5": "Dashboard UI 元件化"
 }

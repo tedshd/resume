@@ -91,5 +91,10 @@
   "4_11": "Fast build static LiveStatus landing page (built with open source template & deployed on firebase hosting)",
   "4_12": "Build GitHub page for policy & term of use",
   "4_13": "Support Firebase app check service for verifying api request is legal",
-  "4_14": "Support app subscription (IAP) for App Store & Google Play. Note the precautions for in-app purchase and subscription"
+  "4_14": "Support app subscription (IAP) for App Store & Google Play. Note the precautions for in-app purchase and subscription",
+  "5_1": "Optimize SDK asynchronous behavior (convert non-essential actions to asynchronous)",
+  "5_2": "JavaScript SDK feature development",
+  "5_3": "Organize and create development documentation",
+  "5_4": "Maintain and develop Dashboard (Angular + ABP)",
+  "5_5": "Componentize Dashboard UI"
 }
