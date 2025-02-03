@@ -96,5 +96,9 @@
   "5_2": "JavaScript SDK feature development",
   "5_3": "Organize and create development documentation",
   "5_4": "Maintain and develop Dashboard (Angular + ABP)",
-  "5_5": "Componentize Dashboard UI"
+  "5_5": "Componentize Dashboard UI",
+  "5_6": "Using JavaScript for Image Conversion",
+  "5_7": "Standardize SDK error formats",
+  "5_8": "Consolidate requirement specifications into documentation",
+  "5_9": "Integrate iOS, Android, and web SDK processes to reduce bugs"
 }

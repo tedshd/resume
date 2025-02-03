@@ -96,5 +96,9 @@
   "5_2": "JavaScript SDK 功能開發",
   "5_3": "陸續整理與建立開發文件",
   "5_4": "維護與開發 Dashboard(Angular + ABP)",
-  "5_5": "Dashboard UI 元件化"
+  "5_5": "Dashboard UI 元件化",
+  "5_6": "使用 JavaScript 進行圖像轉換",
+  "5_7": "標準化 SDK 錯誤格式",
+  "5_8": "整合需求規格到文檔中",
+  "5_9": "整合 iOS，Android 和 web SDK 流程以減少錯誤"
 }
