@@ -42,7 +42,7 @@
   "1_11": "開發第三方影片 API 混合播放器(YouTube、Dailymotion、優酷)",
   "1_12": "使用 JavaScript 開發單頁面應用程式(SPA)，並處理 Facebook OG",
   "1_13": "定義團隊程式碼品質的 git hooks",
-  "1_14": "開發觀察者模式",
+  "1_14": "實作觀察者模式",
   "2_1": "導入 gulp 以改善開發流程",
   "2_2": "使用 WebView 實現 Android 原生應用程式的 Adsense",
   "2_3": "重構和模組化 Adsense",
