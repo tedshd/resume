@@ -53,7 +53,7 @@ function App() {
             jobsList.map((element, index) => {
               return <dl key={index}><dt>{element.company}</dt>{
                 element.content.map((el, i) => {
-                  return <dd key={i}>{t(el)}{ (linksList[el]) ? <a className='extend_link' href={linksList[el]} target='_blank'>link</a>: ''}</dd>
+                  return <dd key={i}>{t(el)}{ (linksList[el]) ? <a className='extend_link' href={linksList[el]} target='_blank' rel="noreferrer">link</a>: ''}</dd>
                 })
               }</dl>
             })
@@ -79,20 +79,16 @@ function App() {
         <section>
           <ul>
             <li>
-              <a href="https://gameprice.tw" target={'_blank'}>比價找遊戲</a>
+              <a href="https://gameprice.tw" target={'_blank'} rel="noreferrer">比價找遊戲</a>
             </li>
             <li>
-              <a href="https://groups.link/" target={'_blank'}>groups link</a>
+              <a href="https://mockimage.tw/" target={'_blank'} rel="noreferrer">mock image generator</a>
             </li>
             <li>
-              <a href="https://top5youtube.com/" target="_blank">Top 5 YouTube videos in year
-              </a>
+              <a href="https://qrcode-make.web.app/" target="_blank" rel="noreferrer">QRcode maker</a>
             </li>
             <li>
-              <a href="https://qrcode-make.web.app/" target="_blank">QRcode maker</a>
-            </li>
-            <li>
-              <a href="https://program.tex.com.tw/" target="_blank">TEX programmable mechanical keyboard web configurator</a>
+              <a href="https://program.tex.com.tw/" target="_blank" rel="noreferrer">TEX programmable mechanical keyboard web configurator</a>
             </li>
           </ul>
         </section>
@@ -160,44 +156,44 @@ function App() {
           <h3>2013</h3>
           <article>
             <p>Participate in Yahoo Hack Taiwan 2013</p>
-            <p><a href="https://www.youtube.com/watch?v=KfV3ZbfyaMc" target="_blank">demo</a></p>
+            <p><a href="https://www.youtube.com/watch?v=KfV3ZbfyaMc" target="_blank" rel="noreferrer">demo</a></p>
           </article>
           <h3>2014</h3>
           <article>
             <p>Participate in 2014 Samsung App develop game(The second place)(Best Smart TV develop)</p>
-            <p><a href="http://edm.bnext.com.tw/2014samsungdeveloper/about_app_content.html" target="_blank">Info</a></p>
-            <p><a href="https://www.youtube.com/watch?v=f1T9q5V3s48" target="_blank">demo</a></p>
+            <p><a href="http://edm.bnext.com.tw/2014samsungdeveloper/about_app_content.html" target="_blank" rel="noreferrer">Info</a></p>
+            <p><a href="https://www.youtube.com/watch?v=f1T9q5V3s48" target="_blank" rel="noreferrer">demo</a></p>
             <p>Been invited be a FED Party 12 lecturer</p>
-            <p><a href="https://www.youtube.com/watch?v=vr5HtuNX4p4" target="_blank">YouTube</a></p>
-            <p><a href="https://tedshd.github.io/FED_Party_12/" target="_blank">demo</a></p>
+            <p><a href="https://www.youtube.com/watch?v=vr5HtuNX4p4" target="_blank" rel="noreferrer">YouTube</a></p>
+            <p><a href="https://tedshd.github.io/FED_Party_12/" target="_blank" rel="noreferrer">demo</a></p>
           </article>
           <h3>2015</h3>
           <article>
             <p>Participate in 2015 Hsinchu hackathon(champion)</p>
             <img className="pure-img" src="https://c3.staticflickr.com/9/8353/30009083466_6203d7c9d0_c.jpg" alt="2015 Hsinchu hackathon" />
-            <p><a href="https://www.flickr.com/gp/78340210@N04/1hyaa5" target="_blank">Design</a></p>
-            <p><a href="https://tedshd.io/2015_hsinchu_hackthon/" target="_blank">demo</a></p>
+            <p><a href="https://www.flickr.com/gp/78340210@N04/1hyaa5" target="_blank" rel="noreferrer">Design</a></p>
+            <p><a href="https://tedshd.io/2015_hsinchu_hackthon/" target="_blank" rel="noreferrer">demo</a></p>
           </article>
           <h3>2016</h3>
           <article>
             <p>Participate in 一秒搞懂政府網站創意競賽(通觀全局獎)</p>
             <img className="pure-img" src="https://c7.staticflickr.com/9/8737/28080293190_e26d880d9f_c.jpg" alt="一秒搞懂政府網站創意競賽" />
             <p>Share firebase with WTT #10</p>
-            <p><a href="https://www.youtube.com/watch?v=ppyBS2Hbf4A" target="_blank">Video</a></p>
-            <p><a href="https://docs.google.com/presentation/d/1we7yKYl1FtvmLaLdrLHml1j49LCd5qIVC8F04hyjqtM/edit?usp=sharing" target="_blank">Firebase slide share</a></p>
+            <p><a href="https://www.youtube.com/watch?v=ppyBS2Hbf4A" target="_blank" rel="noreferrer">Video</a></p>
+            <p><a href="https://docs.google.com/presentation/d/1we7yKYl1FtvmLaLdrLHml1j49LCd5qIVC8F04hyjqtM/edit?usp=sharing" target="_blank" rel="noreferrer">Firebase slide share</a></p>
           </article>
           <h3>2017</h3>
           <article>
             <p>Share 了解 JavaScript 記憶體管理來調整效能與畫面入門 with Node 線上讀書會</p>
-            <p><a href="https://www.youtube.com/watch?v=lNqJDqycSEo" target="_blank">Video</a></p>
-            <p><a href="https://hackmd.io/p/ByoQ6xWfZ#/" target="_blank">slide share</a></p>
+            <p><a href="https://www.youtube.com/watch?v=lNqJDqycSEo" target="_blank" rel="noreferrer">Video</a></p>
+            <p><a href="https://hackmd.io/p/ByoQ6xWfZ#/" target="_blank" rel="noreferrer">slide share</a></p>
             <p>資料應用黑客松－嘉義黑蚵松(最佳人氣獎)</p>
             <img src="https://farm5.staticflickr.com/4419/37197944845_ef8138c855_b.jpg" alt="嘉義黑蚵松" className="pure-img" />
           </article>
           <h3>2018</h3>
           <article>
             <p>FEDC 2018 Front-End Workshop 講者</p>
-            <p><a href="http://2018.fedc.tw/" target="_blank">FEDC 2018 - Front-End x Design Conference</a></p>
+            <p><a href="http://2018.fedc.tw/" target="_blank" rel="noreferrer">FEDC 2018 - Front-End x Design Conference</a></p>
           </article>
         </section>
         <h2>{t('entertainment')}</h2>
