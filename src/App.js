@@ -61,40 +61,50 @@ function App() {
         </section>
         <h2>{t('introduction')}</h2>
         <article>{t('intro')}</article>
-        <h2>{t('specialty')}</h2>
-        <section>
-          <ul>
-            <li>{t('s_1')}</li>
-            <li>{t('s_2')}</li>
-            <li>{t('s_3')}</li>
-            <li>{t('s_4')}</li>
-            <li>{t('s_5')}</li>
-            <li>{t('s_6')}</li>
-            <li>{t('s_7')}</li>
-            <li>{t('s_8')}</li>
-            <li>{t('s_9')}</li>
-          </ul>
-        </section>
-        <h2>{t('side_project')}</h2>
-        <section>
-          <ul>
-            <li>
-              <a href="https://gameprice.tw" target={'_blank'} rel="noreferrer">比價找遊戲</a>
-            </li>
-            <li>
-              <a href="https://mockimage.tw/" target={'_blank'} rel="noreferrer">mock image generator</a>
-            </li>
-            <li>
-              <a href="https://qrcode-make.web.app/" target="_blank" rel="noreferrer">QRcode maker</a>
-            </li>
-            <li>
-              <a href="https://program.tex.com.tw/" target="_blank" rel="noreferrer">TEX programmable mechanical keyboard web configurator</a>
-            </li>
-          </ul>
+        <section className='pure-g'>
+          <div className="pure-u-1 pure-u-md-1-2">
+            <h2>{t('specialty')}</h2>
+            <section>
+              <ul>
+                {/* <li>{t('s_1')}</li> */}
+                <li>{t('s_2')}</li>
+                <li>{t('s_3')}</li>
+                <li>{t('s_4')}</li>
+                <li>{t('s_5')}</li>
+                <li>{t('s_6')}</li>
+                <li>{t('s_7')}</li>
+                <li>{t('s_8')}</li>
+                <li>{t('s_9')}</li>
+                <li>{t('s_10')}</li>
+                <li>{t('s_11')}</li>
+                <li>{t('s_12')}</li>
+                <li>{t('s_13')}</li>
+              </ul>
+            </section>
+          </div>
+          <div className="pure-u-1 pure-u-md-1-2">
+            <h2>{t('side_project')}</h2>
+            <section>
+              <ul>
+                <li>
+                  <a href="https://gameprice.tw" target={'_blank'} rel="noreferrer">比價找遊戲</a>
+                </li>
+                <li>
+                  <a href="https://mockimage.tw/" target={'_blank'} rel="noreferrer">mock image generator</a>
+                </li>
+                <li>
+                  <a href="https://qrcode-make.web.app/" target="_blank" rel="noreferrer">QRcode maker</a>
+                </li>
+                <li>
+                  <a href="https://program.tex.com.tw/" target="_blank" rel="noreferrer">TEX programmable mechanical keyboard web configurator</a>
+                </li>
+              </ul>
+            </section>
+          </div>
         </section>
         <h2>{t('skill')}</h2>
         <section className='pure-g'>
-          <div className="pure-u-1 pure-u-md-1-3">
+          <div className="pure-u-1 pure-u-md-1-4">
             <h3>{t('front_end')}</h3>
             <ul>
               <li>HTML</li>
@@ -114,7 +124,7 @@ function App() {
               <li>React</li>
             </ul>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3">
+          <div className="pure-u-1 pure-u-md-1-4">
             <h3>{t('back_end')}</h3>
             <ul>
               <li>PHP</li>
@@ -128,7 +138,7 @@ function App() {
               <li>Nginx</li>
             </ul>
           </div>
-          <div className="pure-u-1 pure-u-md-1-3">
+          <div className="pure-u-1 pure-u-md-1-4">
             <h3>{t('service')}</h3>
             <ul>
               <li>Google Cloud Platform</li>
@@ -142,14 +152,14 @@ function App() {
               <li>DFP(DoubleClick for Publishers)</li>
             </ul>
           </div>
-        </section>
-        <h2>{t('tool')}</h2>
-        <section>
-          <ul>
-            <li>Docker</li>
-            <li>Vim</li>
-            <li>Visual Studio Code</li>
-          </ul>
+          <div className="pure-u-1 pure-u-md-1-4">
+            <h3>{t('tool')}</h3>
+            <ul>
+              <li>Docker</li>
+              <li>Vim</li>
+              <li>Visual Studio Code</li>
+            </ul>
+          </div>
         </section>
         <h2>{t('record')}</h2>
         <section>
