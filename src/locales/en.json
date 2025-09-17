@@ -104,5 +104,9 @@
   "5_6": "Using JavaScript for Image Conversion",
   "5_7": "Standardize SDK error formats",
   "5_8": "Consolidate requirement specifications into documentation",
-  "5_9": "Integrate iOS, Android, and web SDK processes to reduce bugs"
+  "5_9": "Integrate iOS, Android, and web SDK processes to reduce bugs",
+  "4_1_1": "Project technical support",
+  "4_1_2": "GCP technical support",
+  "4_1_3": "AWS technical support",
+  "4_1_4": "zuba.asia Infra planning, back-end development support"
 }
