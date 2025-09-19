@@ -1,6 +1,7 @@
 body {
   background-color: #eaeaea;
 }
+
 * {
   line-height: 1.3;
 }
@@ -8,6 +9,7 @@ body {
 a {
   color: gray;
 }
+
 a:hover {
   color: #ff8800;
 }
@@ -128,6 +130,7 @@ nav li span {
     border: solid 3px #ff8800;
     box-sizing: border-box;
   }
+
   h1:after {
     content: "";
     position: absolute;
@@ -140,15 +143,42 @@ nav li span {
 
 @media print {
   #avatar {
-      display: block;
-      margin: 0 auto;
-      width: 46pt;
-      height: 46pt;
+    display: block;
+    margin: 0 auto;
+    width: 46pt;
+    height: 46pt;
   }
+
   nav li {
     display: block;
   }
+
   .print {
-      display: inline-block;
+    display: inline-block;
+  }
+
+  .print_section {
+    display: table;
+  }
+
+  .print_section .pure-u-md-1-2 {
+    display: table-cell;
+    width: 50%;
+  }
+
+  .print_section .pure-u-md-1-4 {
+    display: table-cell;
+    width: 25%;
+  }
+
+  .print_section .print_record {
+    display: table-cell;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12pt;
+  }
+
+  .print_section .print_record a {
+    display: none;
   }
 }
