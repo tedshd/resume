@@ -28,7 +28,13 @@ h2 {
   padding-bottom: .5rem;
 }
 
-h3,
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
 dt {
   font-size: 1.25rem;
   font-weight: bold;

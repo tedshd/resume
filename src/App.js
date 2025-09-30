@@ -53,7 +53,17 @@ function App() {
             jobsList.map((element, index) => {
               return <dl key={index}><dt>{element.company}</dt>{
                 element.content.map((el, i) => {
-                  return <dd key={i}>{t(el)}{ (linksList[el]) ? <a className='extend_link' href={linksList[el]} target='_blank' rel="noreferrer">link</a>: ''}</dd>
+                  if (typeof el === 'object') {
+                    return <div key={i}>
+                      {el.title ? <h3>{t(el.title)}</h3> : ''}
+                      <ul>{
+                        el.list.map((e, j) => {
+                          return <li key={j}>{t(e)}{ (linksList[e]) ? <a className='extend_link' href={linksList[e]} target='_blank' rel="noreferrer">link</a>: ''}</li>
+                        })
+                      }</ul>
+                    </div>
+                  }
+                  // return <dd key={i}>{t(el)}{ (linksList[el]) ? <a className='extend_link' href={linksList[el]} target='_blank' rel="noreferrer">link</a>: ''}</dd>
                 })
               }</dl>
             })
