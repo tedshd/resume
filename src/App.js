@@ -109,7 +109,7 @@ function App() {
                   <a href="https://program.tex.com.tw/" target="_blank" rel="noreferrer">TEX programmable mechanical keyboard web configurator</a>
                 </li>
                 <li>
-                  <a href="http://gatherup.tw/" target="_blank" rel="noreferrer">GatherUp - 台灣車聚活動平台</a>
+                  <a href="https://gatherup.tw/" target="_blank" rel="noreferrer">GatherUp - 台灣車聚活動平台</a>
                 </li>
               </ul>
             </section>
