@@ -69,6 +69,27 @@ function App() {
             })
           }
         </section>
+        <h2>{t('Project')}</h2>
+        <ul>
+          <li>
+            <a href="https://program.tex.com.tw/" target="_blank" rel="noreferrer">TEX programmable mechanical keyboard web configurator</a>
+          </li>
+          <li>
+            <a href="https://www.kurasushi.tw/" target="_blank" rel="noreferrer">藏壽司台灣官方網站</a>
+          </li>
+          <li>
+            <a href="https://brand.ncku.edu.tw/" target="_blank" rel="noreferrer">成大品牌資源 NCKU Brand Resources</a>
+          </li>
+          <li>
+            <a href="https://feebee.com.tw/event/lgbtpride/" target="_blank" rel="noreferrer">2023飛比與多元同行-連結美好可能！ 活動頁面</a>
+          </li>
+          <li>
+            <a href="https://feebee.com.tw/event/1111" target="_blank" rel="noreferrer">2023飛比雙11嘉年華 活動頁面</a>
+          </li>
+          <li>
+            <a href="https://catchopz.web.app/" target="_blank" rel="noreferrer">CatchOpz 官網</a>
+          </li>
+        </ul>
         <h2>{t('introduction')}</h2>
         <article>{t('intro')}</article>
         <section className='pure-g print_section'>
@@ -104,9 +125,6 @@ function App() {
                 </li>
                 <li>
                   <a href="https://qrcode-make.web.app/" target="_blank" rel="noreferrer">QRcode maker</a>
-                </li>
-                <li>
-                  <a href="https://program.tex.com.tw/" target="_blank" rel="noreferrer">TEX programmable mechanical keyboard web configurator</a>
                 </li>
                 <li>
                   <a href="https://gatherup.tw/" target="_blank" rel="noreferrer">GatherUp - 台灣車聚活動平台</a>
