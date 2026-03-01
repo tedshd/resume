@@ -121,5 +121,11 @@
   "4_1_3": "AWS 技術支援",
   "4_1_4": "zuba.asia Infra 規劃, 後端開發支援",
   "4_1_5": "Infra AWS 架構, ECS, ECR, RDS, S3, CloudFront, Route53, SES, ElastiCache...",
-  "4_1_6": "Golang 後端開發"
+  "4_1_6": "Golang 後端開發",
+  "6_title_1": "專案開發與維護",
+  "6_1": "GCP 設定(GKE, Cloud Storage, Cloud SQL, Compute Engine)",
+  "6_2": "PHP 後端開發",
+  "6_3": "Vue.js 前端開發",
+  "6_4": "使用 AI coding 協助開發",
+  "6_5": "使用 AI coding 協助撰寫技術文件與規格文件"
 }

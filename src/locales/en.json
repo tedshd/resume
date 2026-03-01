@@ -121,5 +121,11 @@
   "4_1_3": "AWS technical support",
   "4_1_4": "zuba.asia Infra planning, back-end development support",
   "4_1_5": "Infra AWS architecture, ECS, ECR, RDS, S3, CloudFront, Route53, SES, ElastiCache...",
-  "4_1_6": "Golang back-end development"
+  "4_1_6": "Golang back-end development",
+  "6_title_1": "Project development and maintenance",
+  "6_1": "GCP configuration (GKE, Cloud Storage, Cloud SQL, Compute Engine)",
+  "6_2": "PHP back-end development",
+  "6_3": "Vue.js front-end development",
+  "6_4": "Assisted development using AI coding",
+  "6_5": "Assisted in writing technical documents and specifications using AI coding"
 }
