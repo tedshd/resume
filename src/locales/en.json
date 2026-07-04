@@ -127,5 +127,21 @@
   "6_2": "PHP back-end development",
   "6_3": "Vue.js front-end development",
   "6_4": "Assisted development using AI coding",
-  "6_5": "Assisted in writing technical documents and specifications using AI coding"
+  "6_5": "Assisted in writing technical documents and specifications using AI coding",
+  "6_title_2": "Resilient Download & Data Sync Architecture",
+  "6_6": "Designed a batch download queue with async logging, moving retry counts and batch limits to dynamic configuration",
+  "6_7": "Implemented paginated fetching and checkpoint-based resumable sync to prevent OOM during large data syncs and auto-resume after interruption",
+  "6_8": "Designed dual validation (extension whitelist + MIME magic bytes) to prevent disguised files from bypassing upload checks",
+  "6_title_3": "Authentication & Security Hardening",
+  "6_9": "Fixed a CWE-287 authentication vulnerability by implementing JWT signature verification and OAuth State CSRF protection",
+  "6_10": "Refactored account identification (account_hash + ouoid) and unified authentication types via an AuthType enum, replacing string comparisons",
+  "6_11": "Designed government certificate (GCA) verification, matching certificate authority info against account affiliation with central/local rule differentiation",
+  "6_title_4": "Government Data Governance & Permission Model",
+  "6_12": "Refactored government organization change-sync logic, resolving local-agency misidentification and account-review interruption issues while fixing data sync consistency defects",
+  "6_13": "Designed and delivered a six-tier organization-group permission model, enabling parent agencies to review subordinate agencies' datasets",
+  "6_title_5": "Technical Debt Governance & AI-Assisted Development",
+  "6_14": "Established and enforced SonarQube code quality standards, systematically resolving technical debt (unused parameters, generic exceptions, high cognitive complexity)",
+  "6_15": "Extensively practiced AI pair programming with Claude Code, improving development efficiency and producing traceable architecture decision records",
+  "6_title_6": "Security Scanning Tooling Adoption & Maintenance",
+  "6_16": "Helped introduce and maintain security scanning tools (OWASP ZAP, SonarQube, osv-scanner), establishing vulnerability scanning and dependency security checks to strengthen overall project security"
 }
