@@ -33,6 +33,8 @@ function App() {
         </div>
       </header>
       <main>
+        <h2>{t('summary')}</h2>
+        <article>{t('summary_text')}</article>
         <h2>{t('info')}</h2>
         <section>
           <ul>
